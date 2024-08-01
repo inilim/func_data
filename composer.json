@@ -1,0 +1,30 @@
+{
+    "name": "inilim/func_data",
+    "description": "func_data",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inilim\\Data\\": "src/"
+        },
+        "files": [
+            "function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "inilim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "inilim/lazy_method": "dev-simple_function"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "@stable",
+        "inilim/dump": "dev-main",
+        "inilim/parse_lazy_method": "dev-main"
+    }
+}
