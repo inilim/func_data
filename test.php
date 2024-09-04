@@ -8,6 +8,6 @@ use Inilim\Dump\Dump;
 Dump::init();
 
 
-de(_data()->URLProtocolsAsString('|'));
+de(_data()->magicMethodsAsClosure()->__invoke());
 
 // de(preg_quote('xmlrpc.beeps'));

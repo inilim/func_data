@@ -41,6 +41,18 @@ use Inilim\LazyMethod\LazyMethodAbstract;
  * @method  static  string latinAlphabetAsString(string $separator = "", bool $upper = false) 
  * @param \Inilim\Data\Method\latinAlphabetAsString
  * 
+ * @method  string[] magicMethodsAsArray() 
+ * @method  static  string[] magicMethodsAsArray() 
+ * @param \Inilim\Data\Method\magicMethodsAsArray
+ * 
+ * @method  \Closure():string[] magicMethodsAsClosure() 
+ * @method  static  \Closure():string[] magicMethodsAsClosure() 
+ * @param \Inilim\Data\Method\magicMethodsAsClosure
+ * 
+ * @method  string magicMethodsAsString(string $separator = "") 
+ * @method  static  string magicMethodsAsString(string $separator = "") 
+ * @param \Inilim\Data\Method\magicMethodsAsString
+ * 
  * @method  string numbersAsArray() 
  * @method  static  string numbersAsArray() 
  * @param \Inilim\Data\Method\numbersAsArray
