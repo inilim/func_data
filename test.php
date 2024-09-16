@@ -8,6 +8,7 @@ use Inilim\Dump\Dump;
 Dump::init();
 
 
-de(_data()->magicMethodsAsClosure()->__invoke());
+$res = _data()->arabicAlphabetAsClosure()->__invoke();
 
+de($res);
 // de(preg_quote('xmlrpc.beeps'));
