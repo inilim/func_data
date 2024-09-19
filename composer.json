@@ -20,7 +20,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.2",
-        "inilim/lazy_method": "dev-simple_function"
+        "inilim/lazy_method": "dev-simple_function",
+        "inilim/func_core": "dev-main"
     },
     "require-dev": {
         "phpstan/phpstan": "@stable",
