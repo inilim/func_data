@@ -2,9 +2,9 @@
 
 namespace Inilim\Data\Method;
 
-use Inilim\Data\Data;
+use Inilim\FuncCore\FuncCore;
 
 function URLProtocolsAsString(string $separator = ""): string
 {
-    return \implode($separator, Data::URLProtocolsAsClosure()->__invoke());
+    return FuncCore::URLProtocolsAsString($separator);
 }

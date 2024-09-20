@@ -2,12 +2,12 @@
 
 namespace Inilim\Data\Method;
 
-use Inilim\Data\Data;
+use Inilim\FuncCore\FuncCore;
 
 /**
  * @return string[]
  */
 function magicMethodsAsArray(): array
 {
-    return Data::magicMethodsAsClosure()->__invoke();
+    return FuncCore::magicMethodsAsArray();
 }

@@ -2,9 +2,9 @@
 
 namespace Inilim\Data\Method;
 
-use Inilim\Data\Data;
+use Inilim\FuncCore\FuncCore;
 
 function URLProtocolsAsArray(): array
 {
-    return Data::URLProtocolsAsClosure()->__invoke();
+    return FuncCore::URLProtocolsAsArray();
 }

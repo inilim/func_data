@@ -2,9 +2,9 @@
 
 namespace Inilim\Data\Method;
 
-use Inilim\Data\Data;
+use Inilim\FuncCore\FuncCore;
 
 function magicMethodsAsString(string $separator = ""): string
 {
-    return \implode($separator, Data::magicMethodsAsClosure()->__invoke());
+    return FuncCore::magicMethodsAsString($separator);
 }
